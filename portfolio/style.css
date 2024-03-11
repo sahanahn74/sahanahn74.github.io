@@ -1,0 +1,62 @@
+body {
+  background-color: #f8fafa;
+  color: #495057;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.details, #education, .skills, .certificate, #projects {
+  background-color: #5bded3;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  display: none; /* Set default display to none */
+}
+
+h1, h2, h3, h4, h5 {
+  color: #343a40;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li, ol li {
+  margin-bottom: 5px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+/* Navigation Bar Styling */
+.navbar {
+  margin-bottom: 20px;
+}
+
+/* Content Sections Styling */
+.details, #education, .skills, .certificate, #projects {
+  display: none; /* Initially hide all sections */
+}
+
+/* Show content based on user's selection */
+#about {
+  display: block;
+}
+
+/* Additional styling for Skills and Certificates sections */
+.skills ul,
+.certificate ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills li,
+.certificate li {
+  margin-bottom: 5px;
+  padding: 8px;
+  border-radius: 5px;
+}
